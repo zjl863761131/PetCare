@@ -23,8 +23,8 @@ public class Test extends BaseTest {
 		user.setStPhone("666");
 		user.setStLicense("img");
 		user.setStEmail("666@666");
-	//	user.setStDescribe("666");
-		//user.setStAddress("666");
+		user.setStDescribe("666");
+		user.setStAddress("666");
 	
 		userService.save(user);
 	}
